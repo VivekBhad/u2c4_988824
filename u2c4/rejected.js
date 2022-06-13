@@ -1,10 +1,10 @@
 // All the Code for the Rejected page goes here
-let rejectedstudent=json.parse(localStorage.getItem)
+let rejectedstudent=json.parse(localStorage.getItem("admission-rejected"))
 
 displayTable(rejectedstudent);
 
-function displayTable(rejectedstudent){
-    rejectedstudent.forEach(function(element) {
+function displayTable(rejectedStudent){
+    rejectedStudent.forEach(function(element) {
 
         var tr = document.createElement("tr");
         
