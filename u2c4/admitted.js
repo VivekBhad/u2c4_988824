@@ -1,4 +1,5 @@
 // All the Code for the Admitted page goes here
+admittedStudent=JSON.parse(localStorage.getItem("admission")
 
 displayTable(admittedstudent)
 
